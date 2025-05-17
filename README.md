@@ -28,6 +28,13 @@ that merges three arrays into a single sorted array in ascending order **without
 
 ## Setup Instructions
 
+### 0. Clone this repository
+
+```bash
+git clone https://github.com/yourusername/Primo-Test.git
+cd Primo-Test
+```
+
 ### 1. Install dependencies
 
 ```
@@ -63,5 +70,3 @@ import { merge } from './src/merge';
 const result = merge([1, 3, 5], [6, 4, 2], [7, 8, 9]);
 console.log(result); // Output: [1,2,3,4,5,6,7,8,9]
 ```
-
-
