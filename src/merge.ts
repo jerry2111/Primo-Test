@@ -33,3 +33,9 @@ export function merge(collection_1: number[], collection_2: number[], collection
     }
     return result;
 }
+
+// ตัวอย่างการเรียกใช้
+if (require.main === module) {
+    const result = merge([1, 3, 5], [6, 4, 2], [7, 8, 9]);
+    console.log(result); // ควรแสดง [1,2,3,4,5,6,7,8,9]
+}
