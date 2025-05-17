@@ -1,4 +1,4 @@
-import { merge } from '../src/trial';
+import { merge } from '../src/merge';
 
 describe('merge function', () => {
   it('should merge three arrays correctly', () => {
